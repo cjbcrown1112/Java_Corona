@@ -20,11 +20,11 @@ public class Sample {
                         "INSERT INTO promo_transaction (sms_id, promo_id, status, first_name, last_name) " +
                                 "VALUES (?,?,?,?,?)");
 
-                ps.setString(1, "456");
-                ps.setString(2, "234");
-                ps.setString(3, "approved");
+                ps.setString(1, "1");
+                ps.setString(2, "#1PIZZA");
+                ps.setString(3, "Approved");
                 ps.setString(4, "CJ");
-                ps.setString(5, "Crown");
+                ps.setString(5, "Corona");
 
                 int row = ps.executeUpdate();
                 if (row > 0) {
