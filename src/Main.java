@@ -10,12 +10,12 @@ public class Main {
 
         /*
         SMS sms = new SMS();
-        sms.sendSmS("09776279410", "09216255060", "Buy Pizza");
+        sms.sendSmS("09776279410", "09216255060", "#1PIZZA");
 
         Promo.createPromo("#1PIZZA", "1234555",
                 "PISO NA LANG ANG PIZZA!!!", "2022-02-01 10:00:00", "2022-06-30 23:59:00");
 
-        boolean a = Promo.checkShortCode("2234");
+        boolean a = Promo.checkShortCode("1234555");
         System.out.println(a);
 
          */
